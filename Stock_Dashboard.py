@@ -61,7 +61,7 @@ else:
                 st.write(financials)
 
             if balance_sheet.empty:
-                st.warning("No balance sheet data available.")
+                st.warning("No balance sheet data available")
             else:
                 st.subheader("Balance Sheet")
                 st.write(balance_sheet)

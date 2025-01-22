@@ -7,7 +7,7 @@ upload_folder='upload_image'
 if not os.path.exists(upload_folder):
     os. mkdir (upload_folder)
 
-st.header("upload image and description of it")
+st.header("upload image")
 
 uploaded_file = st.file_uploader("choose and image..... ", type=[ 'jpg' , 'jpeg' , 'png'])
 if uploaded_file is not None:

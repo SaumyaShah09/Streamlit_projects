@@ -17,7 +17,7 @@ def response_generator(prompt):
 
     return response
 
-st.title("Simple chat")
+st.title("Simple chatbot")
 
 # Initialize chat history
 if "messages" not in st.session_state:
